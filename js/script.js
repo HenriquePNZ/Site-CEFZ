@@ -55,12 +55,12 @@ function redirecionarParaPagina(event) {
     startAutoSlide(); // Reinicia o slideshow automático
 
     if (event.target.classList.contains('quemSomos')) {
-        window.location.href = "quemSomos.html";
+        window.location.href = "/assets/html/quemSomos.html";
     } else if (event.target.classList.contains('orientacoes')) {
-        window.location.href = "orientacoes.html";
+        window.location.href = "/assets/html/orientacoes.html";
     } else if (event.target.classList.contains('calendario')) {
-        window.location.href = "calendario.html";
+        window.location.href = "/assets/html/calendario.html";
     } else if (event.target.classList.contains('cursos')) {
-        window.location.href = "cursos.html";
+        window.location.href = "/assets/html/cursos.html";
     }
 }
